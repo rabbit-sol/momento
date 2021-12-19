@@ -45,7 +45,7 @@ function Navigation() {
           <div className="popup">
             <img
               src="./assets/images/home.png"
-              alt="Popup Image"
+              alt="Popup"
               className="img-fluid"
               style={{ width: "300px" }}
             />
@@ -54,7 +54,7 @@ function Navigation() {
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab illo quasi architecto beatae vitae dicta sunt explicabo.
             </p>
-            <a className="close" href="#">
+            <a className="close" href={"/"}>
               &times;
             </a>
           </div>
@@ -62,13 +62,14 @@ function Navigation() {
 
         <div id="popup2" className="popup-effect">
           <div className="popup">
-            <iframe src="https://player.vimeo.com/video/12690053"></iframe>
+            <iframe title="myFrame" src="https://player.vimeo.com/video/12690053" sandbox=""/>
+            
             <p className="mt-4 ">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab illo quasi architecto beatae vitae dicta sunt explicabo.
             </p>
-            <a className="close" href="#">
+            <a className="close" href={"/"}>
               &times;
             </a>
           </div>
@@ -112,7 +113,7 @@ function Navigation() {
               </form>
             </div>
 
-            <a className="close" href="#">
+            <a className="close" href={"/"}>
               &times;
             </a>
           </div>
@@ -170,11 +171,11 @@ function Navigation() {
                   Register
                 </button>
                 <p className="text-center mt-3">
-                  <a href="#">By clicking Register, I agree to your terms</a>
+                  <a href="/">By clicking Register, I agree to your terms</a>
                 </p>
               </form>
             </div>
-            <a className="close" href="#">
+            <a className="close" href="/">
               &times;
             </a>
           </div>

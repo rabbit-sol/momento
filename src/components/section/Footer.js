@@ -49,28 +49,23 @@ function Footer() {
                 <h2 className="footer-title text-uppercase text-white mb-4">Quick Links</h2>
                 <ul className="links list-unstyled">
                     <li>
-                        <a className="" href="#home"> Home</a>
+                        <a className="" href="/"> Home</a>
                     </li>
                     <li>
-                        <a className="" href="#about"> About Us</a>
+                        <a className="" href="/services"> Services Page</a>
+                    </li>
+                  
+                    <li>
+                        <a className="" href="/properties">Properties Page</a>
                     </li>
                     <li>
-                        <a className="" href="services.html"> Services Page</a>
-                    </li>
-                    <li>
-                        <a className="" href="#">Agents</a>
-                    </li>
-                    <li>
-                        <a className="" href="properties-2.html">Properties Page</a>
-                    </li>
-                    <li>
-                        <a className="" href="contact.html">Contact Page</a>
+                        <a className="" href="/contact">Contact Page</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-    <a href="#home" className="move-top text-center"><span className="fa fa-angle-up  mb-3" aria-hidden="true"></span></a>
+    <a href="/" className="move-top text-center"><span className="fa fa-angle-up  mb-3" aria-hidden="true"></span><h1 style={{display: 'none'}}>Top</h1></a>
     <div className="copy-right-top border-top mt-4">
         <p className="copy-right text-center pt-xl-5 pt-4">&copy; 2021 Pauri Town. All Rights Reserved.
         </p>

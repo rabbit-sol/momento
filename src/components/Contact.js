@@ -36,7 +36,9 @@ function Home() {
 			<div className="col-lg-4 col-md-6">
 				<div className="mt-5 information">
 					<h4 className="text-uppercase mb-4"><span className="fa fa-comments"></span> Communication</h4>
-					<p className="mb-3 text-capitalize">for general queries, including property Sales and constructions, please email us at <a href="mailto:info@example.com">info@example.com</a></p>
+					<p className="mb-3 text-capitalize">for general queries, including property Sales and constructions, please email us at 
+					<a href="mailto:info@example.com">
+						info@example.com</a></p>
 				</div>
 			</div>
 			<div className="col-lg-4 col-md-6 mt-md-5 mt-2 information">
